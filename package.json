@@ -1,0 +1,24 @@
+{
+  "name": "node-express-clean-code",
+  "version": "1.0.0",
+  "description": "It is a good reference for implementing clean code architecure",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon index.js"
+  },
+  "author": "Sachin Muksha",
+  "license": "ISC",
+  "dependencies": {
+    "awilix": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "make-promises-safe": "^5.1.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
